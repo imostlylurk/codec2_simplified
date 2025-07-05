@@ -1,0 +1,109 @@
+# Codec2 Project .gitignore
+
+# Build directories
+/build/
+/builds/
+/cmake-build-*/
+/out/
+
+# Generated files
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CPackConfig.cmake
+CPackSourceConfig.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Compiled binaries
+codec2_example
+codec2_encode
+codec2_decode
+codec2_encode_enhanced
+codec2_decode_enhanced
+create_test_wav
+create_test_files
+
+# Test and temporary files
+*.wav
+*.c2
+test_*
+temp_*
+*.tmp
+
+# Debugging and profiling
+*.dSYM/
+*.pdb
+*.ilk
+*.log
+core
+vgcore.*
+
+# Package managers
+vcpkg_installed/
+conan/
+
+# Documentation build artifacts
+docs/_build/
+docs/html/
+docs/latex/
+
+# Archives and compressed files
+*.zip
+*.tar.gz
+*.tar.bz2
+*.7z
+*.rar
+
+# Platform-specific
+.vs/
+*.vcxproj.user
+*.vcxproj.filters
+*.sln.docstates
+*.userprefs
+*.pidb
+*.booproj
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Local configuration
+local_config.h
+config.local
+
+# Coverage reports
+*.gcov
+*.gcno
+*.gcda
+coverage/
+htmlcov/
+
+# Static analysis
+*.sarif
+scan-build/
+
+# Clang-specific
+.clangd/
+compile_commands.json
