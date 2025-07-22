@@ -28,8 +28,8 @@
   along with this program; if not, see <http://www.gnu.org/licenses/>.
 */
 
-#include "codec2/defines.h"
-#include "codec2/lsp.h"
+#include "defines.h"
+#include "lsp.h"
 #include <math.h>
 #include <stdio.h>
 #include <stdlib.h>

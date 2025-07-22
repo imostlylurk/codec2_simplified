@@ -25,12 +25,12 @@
   along with this program; if not, see <http://www.gnu.org/licenses/>.
 */
 
-#include "codec2/defines.h"
-#include "codec2/nlp.h"
-#include "codec2/dump.h"
-#include "codec2/kiss_fft.h"
+#include "defines.h"
+#include "nlp.h"
+#include "dump.h"
+#include "kiss_fft.h"
 #undef PROFILE
-#include "codec2/machdep.h"
+#include "machdep.h"
 
 #include <assert.h>
 #include <math.h>

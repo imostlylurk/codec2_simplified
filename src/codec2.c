@@ -32,21 +32,21 @@
 #include <string.h>
 #include <math.h>
 
-#include "codec2/defines.h"
-#include "codec2/sine.h"
-#include "codec2/nlp.h"
-#include "codec2/dump.h"
-#include "codec2/lpc.h"
-#include "codec2/quantise.h"
-#include "codec2/phase.h"
-#include "codec2/interp.h"
-#include "codec2/postfilter.h"
-#include "codec2/codec2.h"
-#include "codec2/lsp.h"
-#include "codec2/codec2_internal.h"
-#include "codec2/machdep.h"
-#include "codec2/bpf.h"
-#include "codec2/bpfb.h"
+#include "defines.h"
+#include "sine.h"
+#include "nlp.h"
+#include "dump.h"
+#include "lpc.h"
+#include "quantise.h"
+#include "phase.h"
+#include "interp.h"
+#include "postfilter.h"
+#include "codec2.h"
+#include "lsp.h"
+#include "codec2_internal.h"
+#include "machdep.h"
+#include "bpf.h"
+#include "bpfb.h"
 
 /*---------------------------------------------------------------------------*\
 

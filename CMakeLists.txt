@@ -104,7 +104,7 @@ endif()
 set_target_properties(codec2 PROPERTIES
     VERSION ${PROJECT_VERSION}
     SOVERSION 1
-    PUBLIC_HEADER "include/codec2/codec2.h"
+    PUBLIC_HEADER "include/codec2.h"
 )
 
 # Install rules
@@ -112,7 +112,7 @@ install(TARGETS codec2 codec2_utils
     ARCHIVE DESTINATION lib
     LIBRARY DESTINATION lib
     RUNTIME DESTINATION bin
-    PUBLIC_HEADER DESTINATION include/codec2
+#    PUBLIC_HEADER DESTINATION include/codec2
 )
 
 # Install all headers

@@ -25,10 +25,10 @@
   along with this program; if not,see <http://www.gnu.org/licenses/>.
 */
 
-#include "codec2/defines.h"
-#include "codec2/phase.h"
-#include "codec2/kiss_fft.h"
-#include "codec2/comp.h"
+#include "defines.h"
+#include "phase.h"
+#include "kiss_fft.h"
+#include "comp.h"
 
 #include <assert.h>
 #include <ctype.h>

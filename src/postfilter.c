@@ -32,11 +32,11 @@
 #include <stdio.h>
 #include <math.h>
 
-#include "codec2/defines.h"
-#include "codec2/comp.h"
-#include "codec2/dump.h"
-#include "codec2/sine.h"
-#include "codec2/postfilter.h"
+#include "defines.h"
+#include "comp.h"
+#include "dump.h"
+#include "sine.h"
+#include "postfilter.h"
 
 /*---------------------------------------------------------------------------*\
 

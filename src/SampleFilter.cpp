@@ -1,4 +1,4 @@
-#include "codec2/SampleFilter.h"
+#include "SampleFilter.h"
 
 static double filter_taps[SAMPLEFILTER_TAP_NUM] = {
   0.03754046486303462,

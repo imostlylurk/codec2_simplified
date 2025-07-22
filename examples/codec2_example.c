@@ -6,7 +6,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#include <codec2/codec2.h>
+#include <codec2.h>
 
 #define SAMPLES_PER_FRAME 160  // for 3200 bps mode
 #define BITS_SIZE ((64 + 7) / 8)  // 64 bits = 8 bytes for 3200 bps mode

@@ -31,14 +31,14 @@
 #include <string.h>
 #include <math.h>
 
-#include "codec2/defines.h"
-#include "codec2/dump.h"
-#include "codec2/quantise.h"
-#include "codec2/lpc.h"
-#include "codec2/lsp.h"
-#include "codec2/kiss_fft.h"
+#include "defines.h"
+#include "dump.h"
+#include "quantise.h"
+#include "lpc.h"
+#include "lsp.h"
+#include "kiss_fft.h"
 #undef PROFILE
-#include "codec2/machdep.h"
+#include "machdep.h"
 
 #define LSP_DELTA1 0.01         /* grid spacing for LSP root searches */
 

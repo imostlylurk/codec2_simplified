@@ -5,7 +5,7 @@
  * The LGPL. See the file COPYING.
  */
 
-#include "codec2/defines.h"
+#include "defines.h"
 
   /* ../src/codebook/lspres_centre1.txt */
 static const float codes0[] = {

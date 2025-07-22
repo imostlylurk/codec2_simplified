@@ -35,9 +35,9 @@
 #include <stdio.h>
 #include <math.h>
 
-#include "codec2/defines.h"
-#include "codec2/sine.h"
-#include "codec2/kiss_fft.h"
+#include "defines.h"
+#include "sine.h"
+#include "kiss_fft.h"
 
 #define HPF_BETA 0.125
 

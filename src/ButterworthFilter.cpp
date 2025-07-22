@@ -1,4 +1,4 @@
-#include "codec2/ButterworthFilter.h"
+#include "ButterworthFilter.h"
 
 ButterworthFilter::ButterworthFilter()
 {

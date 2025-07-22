@@ -32,7 +32,7 @@
 #include <assert.h>
 #include <stdlib.h>
 #include <stdio.h>
-#include "codec2/codec2_fifo.h"
+#include "codec2_fifo.h"
 
 struct FIFO {
     short *buf;

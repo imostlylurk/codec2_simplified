@@ -33,8 +33,8 @@
 
 #include <assert.h>
 #include <math.h>
-#include "codec2/defines.h"
-#include "codec2/lpc.h"
+#include "defines.h"
+#include "lpc.h"
 
 /*---------------------------------------------------------------------------*\
 

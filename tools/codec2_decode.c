@@ -6,7 +6,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
-#include <codec2/codec2.h>
+#include <codec2.h>
 #include "wav_util.h"
 
 void print_usage(const char* prog_name) {

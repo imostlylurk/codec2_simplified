@@ -128,7 +128,7 @@ target_link_libraries(your_target codec2)
 ### Basic Usage
 
 ```c
-#include <codec2/codec2.h>
+#include <codec2.h>
 
 // Create codec instance
 struct CODEC2 *codec2 = codec2_create(CODEC2_MODE_3200);
@@ -256,20 +256,20 @@ ls -la *.c2 *.wav
 ## Project Structure
 
 ```
-├── src/                    # Source files
+├── src/                   # Source files
 │   ├── codec2.c           # Main codec implementation
 │   ├── kiss_fft.c         # FFT implementation
 │   ├── *.c                # Other codec modules
 │   └── *.cpp              # C++ utility classes
-├── include/codec2/         # Header files
+├── include/               # Header files
 │   ├── codec2.h           # Main API header
 │   └── *.h                # Other headers
-├── tools/                  # Command-line tools
+├── tools/                 # Command-line tools
 │   ├── codec2_encode.c    # WAV to Codec2 encoder
 │   ├── codec2_decode.c    # Codec2 to WAV decoder
 │   ├── wav_util.c         # WAV file I/O utilities
 │   └── wav_util.h         # WAV utility headers
-├── examples/               # Example programs
+├── examples/              # Example programs
 │   └── codec2_example.c   # Basic usage example
 ├── CMakeLists.txt         # Main CMake configuration
 ├── CLAUDE.md              # Development guidance

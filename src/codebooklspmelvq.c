@@ -5,7 +5,7 @@
  * The LGPL. See the file COPYING.
  */
 
-#include "codec2/defines.h"
+#include "defines.h"
 
   /* /home/labworks/freetel-code-2792/codec2-dev/src/codebook/lspmelvq1.txt */
 static const float codes0[] = {

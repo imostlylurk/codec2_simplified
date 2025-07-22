@@ -5,7 +5,7 @@
  * The LGPL. See the file COPYING.
  */
 
-#include "codec2/defines.h"
+#include "defines.h"
 
   /* codebook/gecb.txt */
 static const float codes0[] = {

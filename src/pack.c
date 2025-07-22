@@ -15,8 +15,8 @@
   along with this program; if not, see <http://www.gnu.org/licenses/>.
 */
 
-#include "codec2/defines.h"
-#include "codec2/quantise.h"
+#include "defines.h"
+#include "quantise.h"
 #include <stdio.h>
 
 /* Compile-time constants */

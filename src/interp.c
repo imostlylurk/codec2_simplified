@@ -30,10 +30,10 @@
 #include <string.h>
 #include <stdio.h>
 
-#include "codec2/defines.h"
-#include "codec2/interp.h"
-#include "codec2/lsp.h"
-#include "codec2/quantise.h"
+#include "defines.h"
+#include "interp.h"
+#include "lsp.h"
+#include "quantise.h"
 
 float sample_log_amp(MODEL *model, float w);
 
