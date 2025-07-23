@@ -33,7 +33,7 @@
 #include <math.h>
 
 #ifdef __EMBEDDED__
-#include "codec2/gdb_stdio.h"
+#include "gdb_stdio.h"
 #define fprintf gdb_stdio_fprintf
 #define fopen gdb_stdio_fopen
 #define fclose gdb_stdio_fclose

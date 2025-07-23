@@ -37,7 +37,7 @@
 /* General defines */
 
 #define N          80		/* number of samples per frame          */
-#define MAX_AMP    80		/* maximum number of harmonics          */
+#define MAX_AMP    81		/* maximum number of harmonics, added 1 for new 49-329 range */
 #define PI         3.141592654	/* mathematical constant                */
 #define TWO_PI     6.283185307	/* mathematical constant                */
 #define FS         8000		/* sample rate in Hz                    */
@@ -54,8 +54,8 @@
 /* Pitch estimation defines */
 
 #define M        320		/* pitch analysis frame size            */
-#define P_MIN    20		/* minimum pitch                        */
-#define P_MAX    160		/* maximum pitch                        */
+#define P_MIN    24		/* minimum pitch                     (~E4)   */
+#define P_MAX    163		/* maximum pitch                 (~G1)       */
 
 /*---------------------------------------------------------------------------*\
 

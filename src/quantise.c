@@ -40,6 +40,8 @@
 #undef PROFILE
 #include "machdep.h"
 
+#include "wo_table.h"
+
 #define LSP_DELTA1 0.01         /* grid spacing for LSP root searches */
 
 /*---------------------------------------------------------------------------*\
@@ -1106,6 +1108,9 @@ void aks_to_M2(
 
 int encode_Wo(float Wo, int bits)
 {
+    if (bits == 7)                    /* quarter‑semitone table */
+        return wo_parabolic_encode(Wo);
+
     int   index, Wo_levels = 1<<bits;
     float Wo_min = TWO_PI/P_MAX;
     float Wo_max = TWO_PI/P_MIN;
@@ -1131,6 +1136,9 @@ int encode_Wo(float Wo, int bits)
 
 float decode_Wo(int index, int bits)
 {
+    if (bits == 7)
+        return wo_parabolic_decode(index);
+
     float Wo_min = TWO_PI/P_MAX;
     float Wo_max = TWO_PI/P_MIN;
     float step;

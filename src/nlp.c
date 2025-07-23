@@ -49,7 +49,7 @@
 #define SAMPLE_RATE 8000
 #define PI          3.141592654	/* mathematical constant                */
 #define T           0.1         /* threshold for local minima candidate */
-#define F0_MAX      500
+#define F0_MAX      350.0f
 #define CNLP        0.3	        /* post processor constant              */
 #define NLP_NTAP 48	        /* Decimation LPF order */
 
